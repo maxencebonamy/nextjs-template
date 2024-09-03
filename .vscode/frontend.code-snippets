@@ -1,0 +1,79 @@
+{
+	"component": {
+		"prefix": "comp",
+		"body": [
+			"import type { ReactNode } from \"react\"\n\nexport const $1 = (): ReactNode => {\n\treturn (\n\t\t<div>\n\t\t\t$2\n\t\t</div>\n\t)\n}\n"
+		],
+		"description": "Component"
+	},
+	"props-type": {
+		"prefix": "prop",
+		"body": [
+			"export type $1Props = {\n\tclassName?: string\n\t$2\n}"
+		],
+		"description": "Props type"
+	},
+	"tailwind": {
+		"prefix": "tailwind",
+		"body": [
+			"const tailwind = cn(\n\t$1\n)"
+		],
+		"description": "Tailwind CN Utility"
+	},
+	"arrow-function": {
+		"prefix": "func",
+		"body": [
+			"const $1 = () => {$2}"
+		],
+		"description": "Arrow function"
+	},
+	"export-default": {
+		"prefix": "exd",
+		"body": [
+			"export default $1"
+		],
+		"description": "Export default function"
+	},
+	"export": {
+		"prefix": "ex",
+		"body": [
+			"export { $2 } from \"./$1\""
+		],
+		"description": "Export"
+	},
+	"import": {
+		"prefix": "im",
+		"body": [
+			"import { $2 } from \"./$1\""
+		],
+		"description": "Import"
+	},
+	"use-state": {
+		"prefix": "ust",
+		"body": [
+			"const [$1, set$1] = useState($2)"
+		],
+		"description": "Use state"
+	},
+	"use-effect": {
+		"prefix": "uef",
+		"body": [
+			"useEffect(() => {\n$1\n}, [$2])"
+		],
+		"description": "Use effect"
+	},
+	"page": {
+		"prefix": "page",
+		"body": [
+			"import type { ReactNode } from \"react\"\n\nconst $1 = (): ReactNode => {\n\treturn (\n\t\t<main>\n\t\t\t$2\n\t\t</main>\n\t)\n}\n\nexport default $1"
+		],
+		"description": "Page"
+	},
+	"layout": {
+		"prefix": "layout",
+		"body": [
+			"import type { PropsWithChildren, ReactNode } from \"react\"\n\nconst $1 = ({ children }: PropsWithChildren) => {\n\treturn (\n\t\t<>\n\t\t\t$2\n\t\t</>\n\t)\n}\n\nexport default $1"
+		],
+		"description": "Layout"
+	},
+}
