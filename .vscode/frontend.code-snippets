@@ -72,7 +72,7 @@
 	"layout": {
 		"prefix": "layout",
 		"body": [
-			"import type { PropsWithChildren, ReactNode } from \"react\"\n\nconst $1 = ({ children }: PropsWithChildren) => {\n\treturn (\n\t\t<>\n\t\t\t$2\n\t\t</>\n\t)\n}\n\nexport default $1"
+			"import type { PropsWithChildren, ReactNode } from \"react\"\n\nconst $1 = ({ children }: PropsWithChildren): ReactNode => {\n\treturn (\n\t\t<>\n\t\t\t{ children }\n\t\t</>\n\t)\n}\n\nexport default $1"
 		],
 		"description": "Layout"
 	},
