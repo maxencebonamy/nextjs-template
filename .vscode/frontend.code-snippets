@@ -14,7 +14,7 @@
 		"description": "Props type"
 	},
 	"tailwind": {
-		"prefix": "tailwind",
+		"prefix": "cn",
 		"body": [
 			"const tailwind = cn(\n\t$1\n)"
 		],
