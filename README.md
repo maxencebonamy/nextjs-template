@@ -1,6 +1,6 @@
-# Next.js TypeScript Template
+# Next.js Template
 
-Welcome to the Next.js TypeScript Template! This repository provides a robust starting point for building modern web applications using Next.js, React, and TypeScript. It comes pre-configured with a set of libraries and tools that streamline development, enhance productivity, and provide a solid foundation for your projects.
+Welcome to my Next.js Template! This repository provides a robust starting point for building modern web applications using Next.js, React, and TypeScript. It comes pre-configured with a set of libraries and tools that streamline development, enhance productivity, and provide a solid foundation for your projects.
 
 ## Why Use This Template?
 
