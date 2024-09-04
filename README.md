@@ -54,7 +54,9 @@ A collection of beautiful, consistent icons for your projects.
 
 ## VS Code Snippets
 
-This template includes a set of custom VS Code snippets to enhance your development workflow. These snippets are editable and can be customized according to your needs.
+This template includes a set of custom VS Code snippets to enhance your development workflow.
+These snippets are editable and can be customized according to your needs.
+To use the snippets, simply type the snippet prefix in a file and press `Enter` to expand it.
 
 ### Available Snippets
 
@@ -69,6 +71,18 @@ This template includes a set of custom VS Code snippets to enhance your developm
 - **`uef`**: Defines a React useEffect hook.
 - **`page`**: Creates a new page component.
 - **`layout`**: Creates a layout component.
+
+## File templates
+
+This template includes several file templates to help you get started quickly. These templates are customizable and can be modified to suit your project's requirements.
+The only requirement is to have the `Blueprint` VS Code extension installed.
+Then, you just need to right click in the explorer and select `New File from Template`, and choose the template you want to use.
+
+### Available Templates
+
+- **`Component`**: Creates a new React functional component separated in 3 files (component, type, and index).
+- **`Page`**: Creates a new Next.js page component.
+- **`Layout`**: Creates a new layout component.
 
 ## Getting Started
 
